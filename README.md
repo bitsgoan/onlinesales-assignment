@@ -13,9 +13,17 @@ Running code: snapshot: ![image](https://github.com/bitsgoan/onlinesales-assignm
 ## Task 2
 HOW TO RUN THE CODE: Overall there is one input - expressions.
 
+Brief of what the code does:
+#Step 1 - variable 'expressions' is passed
+#Step 2 - We calculate the max requests we can take and alter the requests to take the first 'max requests' expressions 
+#Step 3 - We break this expressions into chunks of 50
+#Step 4 - We initiate as many processes as these chunks
+#Step 5 - We take each process which will have max 50 expressions, and create max 50 threads to make sure these expressions are called parallelly
+
 Expression should be a list of strings.
 
-Running Code Snapshot: ![image](https://github.com/bitsgoan/onlinesales-assignment/assets/25197103/ee5b0dc8-1c75-4637-b265-a8a9380da12e)
+Running Code Snapshot: ![image](https://github.com/bitsgoan/onlinesales-assignment/assets/25197103/00c1bbeb-fabc-4b53-8793-0068041fc4cd)
+
 
 ## Task 3
 HOW TO RUN THE CODE: Overall there is 1 input (n = 5). Change this and run. 
